@@ -1,0 +1,15 @@
+sudo: required
+
+language: generic
+
+services:
+  - docker
+
+before_install:
+  - echo "start"
+
+script:
+  - echo "script"
+
+after_success:
+  - echo "test success"
